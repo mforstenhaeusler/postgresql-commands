@@ -16,8 +16,15 @@ echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/pat
 | 'creatdb mydb' | creates db with name <mydb> |
 | 'dropdb mydb' | deletes db |
 | 'psql mydb' | activate db |
+
+## 
+| Command | Description |
+| ------- | ----------- |
+| 'CREATE DATABASE name' | create a database |
+| '\password' | create password for access |
+ 
   
-## Once db is activates 
+## Once db is activated 
 | Command | Description |
 | ------- | ----------- |
 | '\h' | get help|
